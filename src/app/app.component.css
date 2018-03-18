@@ -1,0 +1,36 @@
+body{
+    margin:0;
+    padding:0;
+}
+#one{
+    background-color: black;
+    height: 60px;
+    width: 100%;  
+}
+#two{
+    margin-top: -10px;
+    background-color: rgb(155, 152, 152);
+    height:600px;
+}
+#txt{
+    margin-top:10px;
+    color: white;
+    font-size: 25px;
+}
+#s{
+    margin-left: 10px;
+    margin-top:7px;
+    width:400px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+#b{
+    background-color: rgb(155, 152, 152);
+    font-weight:bolder;
+    color:white;
+    width:80px;
+    height:35px;
+}
+
+
