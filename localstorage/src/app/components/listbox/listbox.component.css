@@ -1,0 +1,44 @@
+#s{
+  padding-top: 50px;
+  margin-left: -490px;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+label{
+  float: left;
+  width: 10px;
+  line-height: 50px;
+  color: #DDD;
+  font-size: 24px;
+  cursor: pointer;
+}
+li{
+  list-style:none;
+  height: 32px;
+  line-height: 32px;
+  background: #fff;
+  position: relative;
+  margin-bottom: 10px;
+  padding: 0 45px;
+  border-radius: 3px;
+  border-left: 5px solid #629A9C;
+  width:450px;
+  margin-left:280px;
+}
+li input{
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+li button{
+  position: absolute;
+  width:60px;
+  border-radius:10px;
+  right: 5px;
+  top: 5px;
+
+}

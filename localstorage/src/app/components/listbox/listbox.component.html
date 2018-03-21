@@ -1,0 +1,13 @@
+<span id="s">正在进行</span>
+<ul>
+<li *ngFor="let item of dataArr,let i=index"> 
+<input type="checkbox" (change)="changeData(i)">{{item}}<button (click)="deleData(i)"> 删除</button>
+</li>
+</ul>
+<span id="s">已经完成</span>
+<ul>
+   <li *ngFor="let item of dataA,let i=index">
+   <input type="checkbox" checked (change)="changeDataa(i)">{{item}}<button (click)="deletData(i)">删除</button>
+   </li>        
+</ul>
+
