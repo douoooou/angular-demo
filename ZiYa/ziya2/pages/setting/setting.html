@@ -1,0 +1,60 @@
+<!--
+  Generated template for the SettingPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="yel">
+      <ion-title>设置</ion-title>
+      <ion-buttons end>
+        <button ion-button icon-only>
+            <ion-icon ></ion-icon>
+        </button>
+      </ion-buttons>
+  </ion-navbar>
+
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-list class="st">
+        <ion-item class="st11">
+            <p class="m11">图片质量设置</p>
+            <img src="../../assets/imgs/arrow.png" class="st1">
+        </ion-item>
+        <ion-item class="st11">
+          <p class="m11">自动播放视频设置</p>
+          <img src="../../assets/imgs/arrow.png" class="st1">
+        </ion-item>
+        <ion-item class="st11">
+            <p class="m11">消息提醒设置</p>
+            <img src="../../assets/imgs/arrow.png" class="st1">
+        </ion-item>  
+        <ion-item class="st11">
+                <ion-label><p class="m11">开启听筒模式</p></ion-label>
+                <ion-toggle [(ngModel)]="pepperoni"></ion-toggle>         
+        </ion-item>     
+        <ion-item class="st11">
+            <p class="m11">关于资芽</p>
+            <img src="../../assets/imgs/arrow.png" class="st1">
+        </ion-item>  
+        <ion-item class="st11">
+            <p class="m11">资芽公约(免责声明等)</p>
+            <img src="../../assets/imgs/arrow.png" class="st1">
+        </ion-item>  
+        <ion-item class="st11">
+            <p class="m11">把资芽推荐给朋友</p>
+            <img src="../../assets/imgs/arrow.png" class="st1">
+        </ion-item>     
+        <ion-item class="st11">
+            <p class="m11">清理缓存</p>
+        </ion-item>                                      
+      </ion-list>
+
+
+
+      <button class="btn2"  (click)="quit()">退出登录</button>
+</ion-content>

@@ -1,0 +1,40 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+        <ion-navbar color="tm">
+          <ion-title >登录</ion-title>
+        </ion-navbar>
+      
+</ion-header>
+
+
+<ion-content padding class="b">
+    <img src="../../assets/imgs/ziyalogo.png" class="logoo">
+    <p class="p">全球不良资产超级综合服务平台</p>
+    <ion-list class="message">
+      <div class="box">
+          <img src="../../assets/imgs/account.png" class="mine">
+          <ion-item  class="i">
+              <ion-input  placeholder="请输入您的手机号" [(ngModel)]="account"></ion-input>
+          </ion-item>
+      </div>
+      <div class="box">
+          <img src="../../assets/imgs/psd.png" class="mine">
+          <ion-item class="i">
+              <ion-input type="password" placeholder="请输入密码" [(ngModel)]="password"></ion-input>
+          </ion-item>
+      </div>
+
+        <br/>
+        <button class="btn" (click)="login()">登录</button>
+        <br/><br/>
+        <button class="btn1" (click)="reg()">注册</button>
+        <br/><br/>
+        <p class="p" (click)="findpsd()">忘记密码？</p>
+     </ion-list>
+</ion-content>
