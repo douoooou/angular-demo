@@ -1,0 +1,87 @@
+<!--
+  Generated template for the MinePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="yel">
+    <i class="icon ion-chevron-left"></i>
+    <ion-title>我的</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="beijing">
+  <div class="xinxi">
+      <div class="xinxi1">
+        <div class="touxiangdiv">
+          <img src="../../assets/imgs/luhan.jpg" class="touxiang">
+        </div>
+        <div class="anniudiv">
+          <button class="bianjiziliao" (click)="reg()">编辑资料</button>
+        </div>
+      </div>
+
+      <div class="xinxi2">
+        <span class="yhm">堆雪人</span>
+        <p class="dz">北京市|海淀区</p>
+        <span class="gs">北京资芽网络科技有限公司</span>
+      </div>
+  </div>
+
+
+  <ion-list class="mi">
+    <ion-item class="m">
+        <img src="../../assets/imgs/m1.png" class="m1"><p class="m11">芽币</p>
+        <img src="../../assets/imgs/arrow.png" class="m111"><p></p>
+    </ion-item>
+    <ion-item class="m" (click)="repost()">
+        <img src="../../assets/imgs/m2.png" class="m1"><p class="m11">我发布的</p>
+        <img src="../../assets/imgs/arrow.png" class="m111">
+    </ion-item>
+    <ion-item class="m">
+        <img src="../../assets/imgs/m3.png" class="m1"><p class="m11">我合作的</p>
+        <img src="../../assets/imgs/arrow.png" class="m111">
+    </ion-item>        
+  </ion-list>
+  <ion-list class="mii">
+      <ion-item class="m">
+          <img src="../../assets/imgs/m4.png" class="m1"><p class="m11">我的收藏</p>
+          <img src="../../assets/imgs/arrow.png" class="m111">
+      </ion-item>
+      <ion-item class="m">
+          <img src="../../assets/imgs/m5.png" class="m1"><p class="m11">我的草稿箱</p>
+          <img src="../../assets/imgs/arrow.png" class="m111">
+      </ion-item>
+      <ion-item class="m">
+          <img src="../../assets/imgs/m6.png" class="m1"><p class="m11">视频发布</p>
+          <img src="../../assets/imgs/arrow.png" class="m111">
+      </ion-item>     
+      <ion-item class="m">
+          <img src="../../assets/imgs/m7.png" class="m1"><p class="m11">完善信息</p>
+          <img src="../../assets/imgs/arrow.png" class="m111">
+      </ion-item>     
+      <ion-item class="m">
+          <img src="../../assets/imgs/m8.png" class="m1"><p class="m11">VIP等级</p>
+          <img src="../../assets/imgs/arrow.png" class="m111">
+      </ion-item>     
+      <ion-item class="m">
+          <img src="../../assets/imgs/m9.png" class="m1"><p class="m11">账户安全</p>
+          <img src="../../assets/imgs/arrow.png" class="m111">
+      </ion-item>     
+      <ion-item class="m">
+          <img src="../../assets/imgs/m10.png" class="m1"><p class="m11">帮助与反馈</p>
+          <img src="../../assets/imgs/arrow.png" class="m111">
+      </ion-item>     
+      <ion-item class="m" (click)="setting()">
+          <img src="../../assets/imgs/m11.png" class="m1"><p class="m11">设置</p>
+          <img src="../../assets/imgs/arrow.png" class="m111">
+      </ion-item>                                      
+    </ion-list>
+  <!-- <button ion-button (click)="takephoto()">照相</button>
+  <img src="{{imgSrc}}" alt="">
+<img src="assets/" alt="" -->
+</ion-content>
