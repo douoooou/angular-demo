@@ -1,0 +1,67 @@
+*{
+    margin:0px auto;
+    padding:0px auto;
+}
+ul{
+    padding:0 0 0 0;  
+
+}
+ul li{
+    list-style:none;
+    margin:0; padding:0;
+    float: left;
+    text-align: center;
+    border:0.5px solid #e5e5e5;
+    width:25%;
+    border-collapse: collapse;
+    padding-bottom:20px;
+}
+ul li img{
+    text-align: center;
+    margin-top:15px;
+    width:50px;
+    height:40px;
+}
+
+.logo{
+    margin-left:13%;
+}
+.s{
+    margin-top: 5px;
+    margin-left: 20%;    
+}
+
+.sli{
+    height:auto;
+}
+ion-app.ios [padding] .scroll-content {
+    padding: 0px;
+}
+.name{
+    color:white;
+    font-weight: bolder;
+    margin-left: 35%;
+    font-size: 20px;
+}
+.l{
+    float:left;
+    margin-top:10px;
+    width:70px;
+    height:80px;
+}
+.txt{
+    margin-left: 5px;
+    float:left;
+    margin-top:10px;
+}
+.icon{
+  float: left;
+}
+h3{
+    margin-top:10px;
+    margin-left: 10px;
+    float: left;
+}
+h1{
+    color:#c01444;
+}
